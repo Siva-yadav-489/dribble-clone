@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "MatterLight";
+  src: url("/public/fonts/Matter-Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "MatterRegular";
+  src: url("/public/fonts/Matter-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MatterMedium";
+  src: url("/public/fonts/Matter-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "MatterSemibold";
+  src: url("/public/fonts/Matter-SemiBold.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+}
