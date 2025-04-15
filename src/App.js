@@ -6,6 +6,9 @@ import BelowMetrics from "./components/BelowMetrics.js";
 import HowItWorks from "./components/HowItWorks.js";
 import KeyFeatures from "./components/KeyFeatures.js";
 import Usecase from "./components/usecase/Usecase.js";
+import RealStories from "./components/RealStories.js";
+import Testimonial from "./components/Testimonial.js";
+import PricingPlan from "./components/PricingPlan.js";
 
 function App() {
   return (
@@ -17,6 +20,9 @@ function App() {
       <HowItWorks />
       <KeyFeatures />
       <Usecase />
+      <RealStories />
+      <Testimonial />
+      <PricingPlan />
     </div>
   );
 }

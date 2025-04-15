@@ -46,6 +46,10 @@ const BusinessLeaders = () => {
             {/*15*/}
             <p className="w-8 h-7 rounded-lg bg-[#f27418]">&nbsp;</p>
             {/*16*/}
+            <p className="col-span-2 text-lg font-matter-semibold">84%</p>
+            <p className="col-span-2 text-lg font-matter-regular text-stone-400 place-self-end">
+              Fashion
+            </p>
           </div>
           <div className="grid grid-cols-4 gap-2 ml-2">
             <p className="w-8 h-7 rounded-lg bg-[#ffeae2]">&nbsp;</p>
@@ -80,6 +84,10 @@ const BusinessLeaders = () => {
             {/*15*/}
             <p className="w-8 h-7 rounded-lg bg-[#f27418]">&nbsp;</p>
             {/*16*/}
+            <p className="col-span-2 text-lg font-matter-semibold">43%</p>
+            <p className="col-span-2 text-lg font-matter-regular text-stone-400 place-self-end">
+              Tech
+            </p>
           </div>
         </div>
       </div>

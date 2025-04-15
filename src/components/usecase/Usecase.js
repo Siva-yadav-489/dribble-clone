@@ -7,7 +7,7 @@ import Ecommerce from "./Ecommerce";
 const Usecase = () => {
   return (
     <div className=" my-20 mx-10">
-      <p className="text-xl text-amber-500 font-matter-medium">HOW IT WORKS</p>
+      <p className="text-xl text-amber-500 font-matter-medium">USE CASE</p>
       <p className="text-5xl my-5 font-matter-medium tracking-tight leading-tight text-transparent bg-clip-text bg-gradient-to-r from-black via-stone-800 to-amber-600 inline-block">
         Optimize Workflows with Smart <br /> Automation Tools
       </p>
