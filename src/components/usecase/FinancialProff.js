@@ -22,7 +22,7 @@ const FinancialProff = () => {
           6 months
         </button>
         {/* amount cards */}
-        <div className="flex col-span-2 py-5">
+        <div className="flex col-span-2 py-5 mb-5">
           <div className="flex-1 mr-2  border border-stone-200 rounded-2xl ">
             <div className="flex justify-between rounded-t-2xl items-center px-2 py-1 bg-[#f8f8f8]">
               <svg
@@ -151,9 +151,9 @@ const FinancialProff = () => {
             $321,523.05
           </span>
         </p>
-        <div className="flex space-x-2 items-center">
+        <div className="flex space-x-2 justify-end items-center">
           <CircularProgressbarWithChildren
-            className="size-20 "
+            className="size-12"
             value={30}
             styles={buildStyles({
               pathColor: "#1d79f3",
@@ -177,7 +177,7 @@ const FinancialProff = () => {
           </CircularProgressbarWithChildren>
           {/* 2 */}
           <CircularProgressbarWithChildren
-            className="size-20 "
+            className="size-12"
             value={70}
             styles={buildStyles({
               pathColor: "#1d79f3",
@@ -201,7 +201,7 @@ const FinancialProff = () => {
           </CircularProgressbarWithChildren>
           {/* 3 */}
           <CircularProgressbarWithChildren
-            className="size-20 "
+            className="size-12"
             value={80}
             styles={buildStyles({
               pathColor: "#1d79f3",

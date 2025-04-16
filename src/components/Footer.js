@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div className="mt-10  p-20 bg-[#f9f9f9]">
-      <div className="flex justify-between">
+      <div className="flex justify-between items-start">
         <div className="text-5xl font-matter-medium ">
           CogniAI
           <br />
