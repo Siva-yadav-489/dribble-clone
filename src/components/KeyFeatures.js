@@ -67,6 +67,7 @@ const KeyFeatures = () => {
             decision-making.
           </p>
         </div>
+        {/* center col */}
         <div className=" bg-[#fff6e9]  p-10 pt-20 w-full h-full row-span-2  rounded-3xl ">
           <div className="bg-white rounded-3xl py-5 px-10 h-[70%] w-[85%] place-self-center ring-[1.5rem] ring-[#fffaf0]">
             <p className="flex text-sm">
@@ -110,7 +111,21 @@ const KeyFeatures = () => {
             <p className="w-full h-2 rounded-full mt-7 mb-4 bg-gradient-to-r from-[#feaf68] to-[#f27418]">
               &nbsp;
             </p>
-            <p className="w-full h-8 rounded-full  bg-stone-200 ">&nbsp;</p>
+            {/* stripes pattern */}
+            <p className="w-full h-8 rounded-full  bg-stone-200 px-2">
+              <span className="bg-white mx-2 py-2.5 px-1"> &nbsp;</span>
+              <span className="bg-white mx-2 py-2.5 px-1"> &nbsp;</span>
+              <span className="bg-white mx-2 py-2.5 px-1"> &nbsp;</span>
+              <span className="bg-white mx-2 py-2.5 px-1"> &nbsp;</span>
+              <span className="bg-white mx-2 py-2.5 px-1"> &nbsp;</span>
+              <span className="bg-white mx-2 py-2.5 px-1"> &nbsp;</span>
+              <span className="bg-white mx-2 py-2.5 px-1"> &nbsp;</span>
+              <span className="bg-white mx-2 py-2.5 px-1"> &nbsp;</span>
+              <span className="bg-white mx-2 py-2.5 px-1"> &nbsp;</span>
+              <span className="bg-white mx-2 py-2.5 px-1"> &nbsp;</span>
+              <span className="bg-white mx-2 py-2.5 px-1"> &nbsp;</span>
+              <span className="bg-white mx-2 py-2.5 px-1"> &nbsp;</span>
+            </p>
             <div className=" rounded-full flex bg-stone-100 my-4 text-sm w-fit align-middle font-matter-light">
               <button className="text-white py-2 px-3  bg-[#f27418] rounded-full">
                 News Upload
