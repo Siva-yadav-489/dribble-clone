@@ -4,21 +4,21 @@ import img from "./usecase/images/pricing.jpg";
 const PricingPlan = () => {
   return (
     <div className=" mx-10 flex flex-col justify-center">
-      <p className="text-xl text-center text-black font-matter-medium">
+      <p className="text-xl text-center text-amber-500 font-matter-medium">
         PRICING PLAN
       </p>
-      <p className="text-5xl text-center my-3 font-matter-medium tracking-tight leading-tight text-transparent bg-clip-text bg-gradient-to-r from-black via-stone-800 to-amber-600 inline-block">
+      <p className="text-5xl text-center my-3 font-matter-medium tracking-tight leading-tight text-transparent bg-clip-text bg-gradient-to-r from-black  to-amber-500 inline-block">
         Flexible Plans for Every Need and Budget
       </p>
       <p className="text-2xl text-stone-400 text-center font-matter-regular my-3">
-        hoose the perfect plan to scale, save and maximize value.
+        Choose the perfect plan to scale, save and maximize value.
       </p>
       {/* main row */}
-      <div className="mx-0 my-10 flex">
+      <div className="-mx-10 my-10 flex">
         {/* col-1 */}
-        <div className="flex-1 bg-[#f7f7f7] rounded-3xl p-7  ">
+        <div className="flex-1 bg-[#f7f7f7] rounded-r-3xl p-7  ">
           <div className="flex flex-col justify-between h-full">
-            <p className="text-3xl tracking-tight font-matter-medium ">
+            <p className="text-4xl tracking-tight font-matter-medium ">
               Basic Plan <br />{" "}
               <p className="text-lg font-matter-regular text-stone-400  leading-tight pt-4">
                 Essential features at no cost to <br /> start your journey.
@@ -97,7 +97,7 @@ const PricingPlan = () => {
         {/* col-2 */}
         <div className="flex-2 flex justify-between bg-[#fff6e9] rounded-3xl p-7 mx-8">
           <div className="flex flex-col flex-1 justify-between">
-            <p className="text-3xl tracking-tight font-matter-medium ">
+            <p className="text-4xl tracking-tight font-matter-medium ">
               Pro Plan <br />{" "}
               <p className="text-lg font-matter-light text-stone-700  leading-tight pt-4">
                 Unlock premium tools and <br /> features to boost business{" "}
@@ -181,9 +181,9 @@ const PricingPlan = () => {
           <img src={img} alt="img" className="w-3/6 rounded-xl flex-1" />
         </div>
         {/* col-3 */}
-        <div className="flex-1 bg-[#f7f7f7] rounded-3xl p-7  ">
+        <div className="flex-1 bg-[#f7f7f7] rounded-l-3xl p-7  ">
           <div className="flex flex-col justify-between h-full">
-            <p className="text-3xl tracking-tight font-matter-medium ">
+            <p className="text-4xl tracking-tight font-matter-medium ">
               Enterprise Plan <br />{" "}
               <p className="text-lg font-matter-regular text-stone-400  leading-tight pt-4">
                 Scalable solutions tailored for <br /> growing enterprises.

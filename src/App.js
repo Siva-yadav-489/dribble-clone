@@ -9,6 +9,8 @@ import Usecase from "./components/usecase/Usecase.js";
 import RealStories from "./components/RealStories.js";
 import Testimonial from "./components/Testimonial.js";
 import PricingPlan from "./components/PricingPlan.js";
+import FreqAskedQues from "./components/FreqAskedQues.js";
+import Footer from "./components/Footer.js";
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
       <RealStories />
       <Testimonial />
       <PricingPlan />
+      <FreqAskedQues />
+      <Footer />
     </div>
   );
 }
