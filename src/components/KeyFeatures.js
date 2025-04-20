@@ -2,7 +2,7 @@ import React from "react";
 
 const KeyFeatures = () => {
   return (
-    <div className=" mx-10 flex flex-col justify-center">
+    <div className=" mx-16 flex flex-col justify-center">
       <p className="text-xl text-center text-amber-500 font-matter-medium">
         KEY FEATURES
       </p>

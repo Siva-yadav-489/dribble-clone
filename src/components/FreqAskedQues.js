@@ -2,7 +2,7 @@ import React from "react";
 
 const FreqAskedQues = () => {
   return (
-    <div className="flex items-start my-20 mx-10">
+    <div className="flex items-start my-20 mx-16">
       <div className="flex-1">
         <p className="text-xl text-amber-500 font-matter-medium">
           FREQUENTLY ASKED QUESTIONS

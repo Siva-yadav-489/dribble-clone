@@ -86,7 +86,7 @@ const RealStories = () => {
         </div>
       </div>
       {/* col-2 */}
-      <div className="flex-1 -ml-5">
+      <div className="flex-1 -ml-5 -mb-1">
         <img src={img} alt="girl" className="h-full w-full" />
       </div>
       {/* col-3 */}

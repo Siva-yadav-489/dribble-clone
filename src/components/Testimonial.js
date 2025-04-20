@@ -4,7 +4,7 @@ import img2 from "./usecase/images/img4.jpeg";
 
 const Testimonial = () => {
   return (
-    <div className="my-20 mx-10">
+    <div className="my-20 mx-16">
       <p className="text-xl text-amber-500 font-matter-medium">TESTIMONIAL</p>
       <p className="text-5xl my-3 font-matter-medium tracking-tight leading-tight text-transparent bg-clip-text bg-gradient-to-r from-black via-stone-800 to-amber-600 inline-block">
         What Our Customers Say About <br /> Their Experiance
