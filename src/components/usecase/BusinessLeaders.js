@@ -2,7 +2,7 @@ import React from "react";
 
 const BusinessLeaders = () => {
   return (
-    <div className=" bg-[#f7f7f7]  p-8 w-full h-full col-span-2  rounded-3xl ">
+    <div className=" bg-[#f7f7f7]  p-8 w-full h-full col-span-2 max-lg:col-span-6 rounded-3xl ">
       <p className="text-3xl font-matter-medium ">For Business Leaders</p>
       <p className="text-lg font-matter-regular text-stone-400">
         Identify trends & opportunities in real-

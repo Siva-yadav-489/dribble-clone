@@ -2,7 +2,7 @@ import React from "react";
 
 const KeyFeatures = () => {
   return (
-    <div className=" mx-16 flex flex-col justify-center">
+    <div className=" mx-16 flex flex-col justify-center max-sm:mx-2">
       <p className="text-xl text-center text-amber-500 font-matter-medium">
         KEY FEATURES
       </p>
@@ -14,7 +14,7 @@ const KeyFeatures = () => {
         success.
       </p>
       <div className="grid grid-flow-col max-xl:flex max-xl:flex-wrap grid-rows-2 gap-7 my-8">
-        <div className=" bg-[#f7f7f7]  p-10 w-full h-full max-xl:w-[48%] max-xl:h-1/2   rounded-3xl ">
+        <div className=" bg-[#f7f7f7]  p-10 w-full h-full max-md:row-span-2 rounded-3xl ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -43,7 +43,7 @@ const KeyFeatures = () => {
             insights.
           </p>
         </div>
-        <div className=" bg-[#f7f7f7]  p-10 w-full h-full max-xl:w-[48%] max-xl:h-1/2   rounded-3xl ">
+        <div className=" bg-[#f7f7f7]  p-10 w-full h-full max-md:row-span-2 rounded-3xl ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -132,7 +132,7 @@ const KeyFeatures = () => {
               </button>
               <button className="py-2 px-3">Trending</button>
             </div>
-            <div className="flex bg-[#f7f7f7]  p-2 w-full items-center mb-3 justify-around  rounded-3xl">
+            <div className="flex bg-[#f7f7f7]  p-2 max-sm:flex-col w-full items-center mb-3 justify-around  rounded-3xl">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
@@ -152,7 +152,7 @@ const KeyFeatures = () => {
                 20MB
               </button>
             </div>
-            <div className="flex bg-[#f7f7f7]  p-2 w-full items-center mb-3 justify-around  rounded-3xl">
+            <div className="flex bg-[#f7f7f7]  p-2 max-sm:flex-col w-full items-center mb-3 justify-around  rounded-3xl">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
@@ -184,7 +184,7 @@ const KeyFeatures = () => {
             insights for informed decision-making.
           </p>
         </div>
-        <div className=" bg-[#f7f7f7]  p-10 w-full h-full max-xl:w-[48%] max-xl:h-1/2   rounded-3xl ">
+        <div className=" bg-[#f7f7f7]  p-10 w-full h-full max-md:row-span-2 rounded-3xl ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -209,7 +209,7 @@ const KeyFeatures = () => {
             just for data scientists.
           </p>
         </div>
-        <div className=" bg-[#f7f7f7]  p-10 w-full h-full max-xl:w-[48%] max-xl:h-1/2   rounded-3xl ">
+        <div className=" bg-[#f7f7f7]  p-10 w-full h-full max-md:row-span-2 rounded-3xl ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"

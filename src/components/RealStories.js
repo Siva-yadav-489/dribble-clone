@@ -5,7 +5,7 @@ import img from "../girl-img.webp-removebg-preview.png";
 
 const RealStories = () => {
   return (
-    <div className="flex  bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-[#f46a006d] via-sky-100 to-sky-100 w-[97%] mx-auto  pt-10 px-10 my-10 rounded-[4rem]">
+    <div className="flex max-xl:flex-col bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-[#f46a006d] via-sky-100 to-sky-100 w-[97%] max-sm:mx-2 max-sm:w-screen mx-auto  pt-10 px-10 my-10 rounded-[4rem]">
       {/* col-1 */}
       <div className=" flex-1 flex flex-col justify-between pb-10">
         {/* top half */}
@@ -86,7 +86,7 @@ const RealStories = () => {
         </div>
       </div>
       {/* col-2 */}
-      <div className="flex-1 -ml-5 -mb-1">
+      <div className="flex-1 -ml-5 -mb-1 max-xl:mb-5">
         <img src={img} alt="girl" className="h-full w-full" />
       </div>
       {/* col-3 */}
@@ -200,7 +200,7 @@ const RealStories = () => {
             </div>
           </div>
         </div>
-        <div className="bg-white bg-opacity-40 rounded-full flex p-2 w-fit">
+        <div className="bg-white bg-opacity-40 rounded-full flex p-2 w-fit max-xl:mt-5">
           <p className="size-14 rounded-full border-2 border-stone-200 bg-[#ed8c2a]  ">
             &nbsp;
           </p>

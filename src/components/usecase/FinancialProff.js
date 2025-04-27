@@ -7,7 +7,7 @@ import "react-circular-progressbar/dist/styles.css";
 
 const FinancialProff = () => {
   return (
-    <div className="col-span-3 bg-[#f7f7f7]  p-8 w-full h-full rounded-3xl">
+    <div className="col-span-3 bg-[#f7f7f7]  p-8 w-full h-full max-lg:col-span-6 rounded-3xl">
       <p className="text-3xl font-matter-medium ">
         For Financial Proffesionals
       </p>
@@ -17,13 +17,13 @@ const FinancialProff = () => {
         desicions and stay ahead of competition.
       </p>
       <div className="bg-white rounded-3xl p-6 mt-10 grid grid-cols-2 items-center">
-        <p className="text-2xl font-matter-medium pt-4">Schedule Transfer</p>
-        <button className="py-1 mt-4 w-1/3 text-md font-matter-light border place-self-end border-stone-400 rounded-full">
+        <p className="text-2xl font-matter-medium pt-4 ">Schedule Transfer</p>
+        <button className="py-1 mt-4 w-1/3 max-sm:col-span-2 text-md font-matter-light border place-self-end border-stone-400 rounded-full">
           6 months
         </button>
         {/* amount cards */}
-        <div className="flex col-span-2 py-5 mb-5">
-          <div className="flex-1 mr-2  border border-stone-200 rounded-2xl ">
+        <div className="flex max-sm:flex-col col-span-2 py-5 mb-5">
+          <div className="flex-1 mr-2 max-sm:m-1 border border-stone-200 rounded-2xl ">
             <div className="flex justify-between rounded-t-2xl items-center px-2 py-1 bg-[#f8f8f8]">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -83,7 +83,7 @@ const FinancialProff = () => {
               </svg>
             </div>
           </div>
-          <div className="flex-1 ml-2  border border-stone-200 rounded-2xl ">
+          <div className="flex-1 ml-2 max-sm:m-1 border border-stone-200 rounded-2xl ">
             <div className="flex rounded-t-2xl justify-between items-center px-2 py-1 bg-[#f8f8f8]">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -151,7 +151,7 @@ const FinancialProff = () => {
             $321,523.05
           </span>
         </p>
-        <div className="flex space-x-2 justify-end items-center">
+        <div className="flex space-x-2 justify-end items-center max-sm:col-span-2">
           <CircularProgressbarWithChildren
             className="size-12"
             value={30}

@@ -3,7 +3,7 @@ import React from "react";
 const IntTools = () => {
   return (
     <div
-      className="grid grid-cols-2 gap-3 max-w-fit justify-start px-4 items-center bg-white/50 backdrop-opacity-10
+      className="grid grid-cols-2 gap-3 max-sm:col-span-2 max-w-fit justify-start px-4 items-center bg-white/50 backdrop-opacity-10
  py-4  rounded-3xl "
     >
       <p className="text-lg font-matter-medium  ">Integration Tools</p>

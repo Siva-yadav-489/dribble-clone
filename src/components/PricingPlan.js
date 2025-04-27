@@ -3,7 +3,7 @@ import img from "./usecase/images/pricing.jpg";
 
 const PricingPlan = () => {
   return (
-    <div className=" mx-10 flex flex-col justify-center">
+    <div className=" mx-10 flex flex-col justify-center max-sm:mx-4">
       <p className="text-xl text-center text-amber-500 font-matter-medium">
         PRICING PLAN
       </p>
@@ -14,9 +14,9 @@ const PricingPlan = () => {
         Choose the perfect plan to scale, save and maximize value.
       </p>
       {/* main row */}
-      <div className="-mx-10 my-10 flex">
+      <div className="-mx-10 my-10 flex max-lg:flex-col">
         {/* col-1 */}
-        <div className="flex-1 bg-[#f7f7f7] rounded-r-3xl p-7  ">
+        <div className="flex-1 bg-[#f7f7f7] rounded-r-3xl p-7  max-md:mx-2 ">
           <div className="flex flex-col justify-between h-full">
             <p className="text-4xl tracking-tight font-matter-medium ">
               Basic Plan <br />{" "}
@@ -95,7 +95,7 @@ const PricingPlan = () => {
           </div>
         </div>
         {/* col-2 */}
-        <div className="flex-2 flex justify-between bg-[#fff6e9] rounded-3xl p-7 mx-8">
+        <div className="flex-2 flex max-md:flex-col justify-between bg-[#fff6e9] rounded-3xl p-7 mx-8">
           <div className="flex flex-col flex-1 justify-between">
             <p className="text-4xl tracking-tight font-matter-medium ">
               Pro Plan <br />{" "}
@@ -181,7 +181,7 @@ const PricingPlan = () => {
           <img src={img} alt="img" className="w-3/6 rounded-xl flex-1" />
         </div>
         {/* col-3 */}
-        <div className="flex-1 bg-[#f7f7f7] rounded-l-3xl p-7  ">
+        <div className="flex-1 bg-[#f7f7f7] rounded-l-3xl p-7  max-md:mx-2 ">
           <div className="flex flex-col justify-between h-full">
             <p className="text-4xl tracking-tight font-matter-medium ">
               Enterprise Plan <br />{" "}

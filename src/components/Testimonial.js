@@ -4,7 +4,7 @@ import img2 from "./usecase/images/img4.jpeg";
 
 const Testimonial = () => {
   return (
-    <div className="my-20 mx-16">
+    <div className="my-20 mx-16 max-sm:mx-2">
       <p className="text-xl text-amber-500 font-matter-medium">TESTIMONIAL</p>
       <p className="text-5xl my-3 font-matter-medium tracking-tight leading-tight text-transparent bg-clip-text bg-gradient-to-r from-black via-stone-800 to-amber-600 inline-block">
         What Our Customers Say About <br /> Their Experiance
@@ -17,7 +17,7 @@ const Testimonial = () => {
         <button className="text-lg font-matter-light bg-black rounded-full text-white py-4 px-7 my-3 place-self-end">
           See All Testimonials
         </button>
-        <div className="col-span-2 bg-[#f9f9f9] rounded-2xl flex justify-start w-full p-5 ">
+        <div className="col-span-2 bg-[#f9f9f9] rounded-2xl flex max-lg:flex-col justify-start w-full p-5 ">
           <img src={img1} alt="img" className="w-80 h-80 rounded-xl m-5" />
           <div className="flex flex-col justify-between items-start m-5">
             <p className="text-3xl font-matter-medium">
@@ -41,7 +41,7 @@ const Testimonial = () => {
             </span>
           </p>
         </div>
-        <div className="col-span-2 bg-[#f9f9f9] rounded-2xl flex justify-start w-full p-5 ">
+        <div className="col-span-2 bg-[#f9f9f9] rounded-2xl flex max-lg:flex-col justify-start w-full p-5 ">
           <img src={img2} alt="img" className="w-80 h-80 rounded-xl m-5" />
           <div className="flex flex-col justify-between items-start m-5">
             <p className="text-3xl font-matter-medium">

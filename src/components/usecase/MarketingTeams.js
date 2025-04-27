@@ -6,7 +6,7 @@ import img4 from "./images/img4.jpeg";
 
 const MarketingTeams = () => {
   return (
-    <div className=" bg-[#f7f7f7]  p-8 w-full h-full flex justify-between col-span-4  rounded-3xl ">
+    <div className=" bg-[#f7f7f7]  p-8 w-full h-full flex justify-between max-lg:flex-col max-lg:col-span-6 col-span-4  rounded-3xl ">
       {/* left half */}
       <div className="flex flex-col justify-between">
         <div>
@@ -53,8 +53,8 @@ const MarketingTeams = () => {
         <div className="col-span-2 flex justify-between">
           <div className="flex flex-col justify-end items-center">
             <p className="text-[0.6rem] font-matter-light">13.8%</p>
-            <p className="bg-[#f4781c28] rounded-2xl h-[4.00rem] w-28 m-1">
-              &nbsp;
+            <p className="bg-[#f4781c28] rounded-2xl h-[4.00rem] w-24 mr-1 my-1">
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
             </p>
             <p className="text-[0.6rem] text-stone-400 font-matter-light">
               18-24
@@ -62,8 +62,8 @@ const MarketingTeams = () => {
           </div>
           <div className="flex flex-col justify-end items-center">
             <p className="text-[0.6rem] font-matter-light">32.2%</p>
-            <p className="bg-gradient-to-t from-[#f47419] to-[#fdac60] rounded-2xl h-[9.65rem] w-28 m-1">
-              &nbsp;
+            <p className="bg-gradient-to-t from-[#f47419] to-[#fdac60] rounded-2xl h-[9.65rem] w-24 m-1">
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
             </p>
             <p className="text-[0.6rem] text-white bg-black rounded-full px-1 font-matter-light">
               25-34
@@ -71,8 +71,8 @@ const MarketingTeams = () => {
           </div>
           <div className="flex flex-col justify-end items-center">
             <p className="text-[0.6rem] font-matter-light">26.9%</p>
-            <p className="bg-[#f47a1c28] rounded-2xl h-[8.04rem] w-28 m-1">
-              &nbsp;
+            <p className="bg-[#f47a1c28] rounded-2xl h-[8.04rem] w-24 m-1">
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
             </p>
             <p className="text-[0.6rem] text-stone-400 font-matter-light">
               35-44
@@ -80,8 +80,8 @@ const MarketingTeams = () => {
           </div>
           <div className="flex flex-col justify-end items-center">
             <p className="text-[0.6rem] font-matter-light">&nbsp;</p>
-            <p className="bg-[#f4781c28] rounded-l-2xl h-[5.27rem] w-5 my-1 ml-1 ">
-              &nbsp;
+            <p className="bg-[#f4781c28] rounded-l-2xl h-[5.27rem]  my-1 ml-1 ">
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
             </p>
             <p className="text-[0.6rem] text-stone-400 font-matter-light">
               &nbsp;

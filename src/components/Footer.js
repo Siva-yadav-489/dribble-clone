@@ -2,8 +2,8 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="mt-10 -mx-16 px-40 py-20 bg-[#f9f9f9]">
-      <div className="flex justify-between items-start">
+    <div className="mt-10 -mx-16 px-40 py-20 bg-[#f9f9f9]  max-sm:px-20">
+      <div className="flex justify-between items-start max-md:flex-col">
         <div className="text-5xl font-matter-medium ">
           CogniAI
           <br />
@@ -41,7 +41,7 @@ const Footer = () => {
           </p>
         </div>
       </div>
-      <div className="flex justify-between items-center pt-14">
+      <div className="flex justify-between items-center pt-14 max-sm:flex-col">
         <p className="text-xl font-matter-regular ">
           &copy;2025 CogniAI. All Rights Reserved.
         </p>

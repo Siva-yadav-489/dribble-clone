@@ -3,7 +3,7 @@ import StaticSegmentedBar from "./StaticSegmentBar";
 
 const Ecommerce = () => {
   return (
-    <div className="col-span-3  bg-[#f7f7f7]  p-8 w-full h-full rounded-3xl">
+    <div className="col-span-3  bg-[#f7f7f7]  p-8 w-full h-full max-lg:col-span-6 rounded-3xl">
       <p className="text-3xl font-matter-medium ">For E-commerce</p>
       <p className="text-lg font-matter-regular text-stone-400">
         Identify trends & opportunities in real-time to make data-driven
@@ -14,7 +14,7 @@ const Ecommerce = () => {
         <p className="text-2xl font-matter-medium pt-4">Affiliates</p>
 
         {/* united states */}
-        <div className="flex justify-between border border-stone-200  p-2 w-full items-center my-3 rounded-2xl">
+        <div className="flex max-sm:flex-col justify-between border border-stone-200  p-2 w-full items-center my-3 rounded-2xl">
           <div className="mx-2 flex items-center">
             <img
               width="52"
@@ -38,7 +38,7 @@ const Ecommerce = () => {
           </div>
         </div>
         {/* france */}
-        <div className="flex justify-between border border-stone-200  p-2 w-full items-center my-3 rounded-2xl">
+        <div className="flex max-sm:flex-col justify-between border border-stone-200  p-2 w-full items-center my-3 rounded-2xl">
           <div className="mx-2 flex items-center">
             <img
               width="52"
@@ -62,7 +62,7 @@ const Ecommerce = () => {
           </div>
         </div>
         {/* south korea */}
-        <div className="flex justify-between border border-stone-200  p-2 w-full items-center my-3 rounded-2xl">
+        <div className="flex max-sm:flex-col justify-between border border-stone-200  p-2 w-full items-center my-3 rounded-2xl">
           <div className="mx-2 flex items-center">
             <img
               width="52"
