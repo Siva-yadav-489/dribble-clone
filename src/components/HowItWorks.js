@@ -14,7 +14,7 @@ const HowItWorks = () => {
         <button className="text-lg font-matter-light bg-black rounded-full text-white py-4 px-7 my-3 place-self-end">
           Try AI-Powered Analysis Today
         </button>
-        <div className=" bg-[#f7f7f7] px-6 py-10 w-full h-full   rounded-3xl ">
+        <div className=" bg-[#f7f7f7] px-6 py-10 w-full h-full max-md:col-span-2 rounded-3xl ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -37,7 +37,7 @@ const HowItWorks = () => {
             effortlessly for seamless integration and efficient workflows.
           </p>
         </div>
-        <div className=" bg-[#f7f7f7] px-6 py-10 w-full h-full   rounded-3xl ">
+        <div className=" bg-[#f7f7f7] px-6 py-10 w-full h-full max-md:col-span-2  rounded-3xl ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -61,7 +61,7 @@ const HowItWorks = () => {
             your data for seamless organization.
           </p>
         </div>
-        <div className=" bg-[#f7f7f7] px-6 py-10 w-full h-full   rounded-3xl ">
+        <div className=" bg-[#f7f7f7] px-6 py-10 w-full h-full max-md:col-span-2  rounded-3xl ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -86,7 +86,7 @@ const HowItWorks = () => {
             powered analytics
           </p>
         </div>
-        <div className=" bg-[#f7f7f7] px-6 py-10 w-full h-full   rounded-3xl ">
+        <div className=" bg-[#f7f7f7] px-6 py-10 w-full h-full max-md:col-span-2  rounded-3xl ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"

@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="mt-10 px-24 py-20 bg-[#f9f9f9]">
+    <div className="mt-10 -mx-16 px-40 py-20 bg-[#f9f9f9]">
       <div className="flex justify-between items-start">
         <div className="text-5xl font-matter-medium ">
           CogniAI

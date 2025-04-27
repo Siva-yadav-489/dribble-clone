@@ -14,7 +14,7 @@ import Footer from "./components/Footer.js";
 
 function App() {
   return (
-    <div>
+    <div className="md:mx-16 max-md:mx-4">
       <Navbar />
       <Hero />
       <Grid />

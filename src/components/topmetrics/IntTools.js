@@ -3,7 +3,7 @@ import React from "react";
 const IntTools = () => {
   return (
     <div
-      className="grid grid-cols-2 gap-3 max-w-fit  justify-start px-4 items-center bg-white/50 backdrop-opacity-10
+      className="grid grid-cols-2 gap-3 max-w-fit justify-start px-4 items-center bg-white/50 backdrop-opacity-10
  py-4  rounded-3xl "
     >
       <p className="text-lg font-matter-medium  ">Integration Tools</p>
@@ -22,7 +22,7 @@ const IntTools = () => {
         />
       </svg>
 
-      <div className="flex bg-white  p-2 max-w-fit items-center justify-start gap-3 rounded-full">
+      <div className="flex max-lg:col-span-2 max-lg:justify-center bg-white  p-2 items-center justify-start gap-3 rounded-full">
         <img
           width="32"
           height="32"
@@ -30,7 +30,7 @@ const IntTools = () => {
           src="https://img.icons8.com/fluency/48/gmail-new.png"
           alt="gmail-new"
         />
-        <p className="font-matter-regular min-w-28">
+        <p className="font-matter-regular  w-full">
           Gmail <br />{" "}
           <span className="text-xs text-stone-400 font-matter-light">
             Emails Sent:1,200
@@ -40,7 +40,7 @@ const IntTools = () => {
           +8%
         </button>
       </div>
-      <div className="flex bg-white  p-2 max-w-fit items-center justify-start gap-3 rounded-full">
+      <div className="flex max-lg:col-span-2 max-lg:justify-center bg-white  p-2 items-center justify-start gap-3 rounded-full">
         <img
           width="32"
           height="32"
@@ -48,7 +48,7 @@ const IntTools = () => {
           src="https://img.icons8.com/color/32/facebook-new.png"
           alt="facebook-new"
         />
-        <p className="font-matter-regular min-w-28">
+        <p className="font-matter-regular  w-full">
           Facebook <br />{" "}
           <span className="text-xs text-stone-400 font-matter-light">
             Ad CTR:4.2%
@@ -58,7 +58,7 @@ const IntTools = () => {
           +8%
         </button>
       </div>
-      <div className="flex bg-white  p-2 max-w-fit items-center justify-start gap-3 rounded-full">
+      <div className="flex max-lg:col-span-2 max-lg:justify-center bg-white  p-2 items-center justify-start gap-3 rounded-full">
         <img
           width="32"
           height="32"
@@ -66,7 +66,7 @@ const IntTools = () => {
           src="https://img.icons8.com/color/32/instagram-new--v1.png"
           alt="instagram-new--v1"
         />
-        <p className="font-matter-regular min-w-28">
+        <p className="font-matter-regular  w-full">
           Instagram <br />{" "}
           <span className="text-xs text-stone-400 font-matter-light">
             Profile Visits:18,500
@@ -76,7 +76,7 @@ const IntTools = () => {
           +8%
         </button>
       </div>
-      <div className="flex bg-white  p-2 max-w-fit items-center justify-start gap-3 rounded-full">
+      <div className="flex max-lg:col-span-2 max-lg:justify-center bg-white  p-2 items-center justify-start gap-3 rounded-full">
         <img
           width="32"
           height="32"
@@ -84,7 +84,7 @@ const IntTools = () => {
           src="https://img.icons8.com/ios-glyphs/32/twitterx--v1.png"
           alt="twitterx--v1"
         />
-        <p className="font-matter-regular min-w-28">
+        <p className="font-matter-regular  w-full">
           X(twitter) <br />{" "}
           <span className="text-xs text-stone-400 font-matter-light">
             Tweets Posted:150

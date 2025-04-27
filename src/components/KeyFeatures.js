@@ -13,8 +13,8 @@ const KeyFeatures = () => {
         Track, analyse and optimize data to improve peformance and drive
         success.
       </p>
-      <div className="grid grid-flow-col grid-rows-2 gap-7 my-8">
-        <div className=" bg-[#f7f7f7]  p-10 w-full h-full   rounded-3xl ">
+      <div className="grid grid-flow-col max-xl:flex max-xl:flex-wrap grid-rows-2 gap-7 my-8">
+        <div className=" bg-[#f7f7f7]  p-10 w-full h-full max-xl:w-[48%] max-xl:h-1/2   rounded-3xl ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -43,7 +43,7 @@ const KeyFeatures = () => {
             insights.
           </p>
         </div>
-        <div className=" bg-[#f7f7f7]  p-10 w-full h-full   rounded-3xl ">
+        <div className=" bg-[#f7f7f7]  p-10 w-full h-full max-xl:w-[48%] max-xl:h-1/2   rounded-3xl ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -68,7 +68,7 @@ const KeyFeatures = () => {
           </p>
         </div>
         {/* center col */}
-        <div className=" bg-[#fff6e9]  p-10 pt-20 w-full h-full row-span-2  rounded-3xl ">
+        <div className=" bg-[#fff6e9] max-xl:flex-2 p-10 pt-20 w-full h-full row-span-2  rounded-3xl ">
           <div className="bg-white rounded-3xl py-5 px-10 h-[70%] w-[85%] place-self-center ring-[1.5rem] ring-[#fffaf0]">
             <p className="flex text-sm">
               <svg
@@ -184,7 +184,7 @@ const KeyFeatures = () => {
             insights for informed decision-making.
           </p>
         </div>
-        <div className=" bg-[#f7f7f7]  p-10 w-full h-full   rounded-3xl ">
+        <div className=" bg-[#f7f7f7]  p-10 w-full h-full max-xl:w-[48%] max-xl:h-1/2   rounded-3xl ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -209,7 +209,7 @@ const KeyFeatures = () => {
             just for data scientists.
           </p>
         </div>
-        <div className=" bg-[#f7f7f7]  p-10 w-full h-full   rounded-3xl ">
+        <div className=" bg-[#f7f7f7]  p-10 w-full h-full max-xl:w-[48%] max-xl:h-1/2   rounded-3xl ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
